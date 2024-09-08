@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body.darken {
+    filter: grayscale(0.5);
+    /* background-color: black; */
+    background-color: rgba(0, 0, 0, 0.5);
+}

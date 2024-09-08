@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="icon" type="image/x-icon" href="/img/fb-logo.png">
+    <link rel="stylesheet" href="css/output.css">
+</head>
+<body class="bg-slate-100 font-facebook-font relative daken">
+
+
+
+    <!-- ADD ACCOUNT -->
+
+    <div id="cardID" class="hidden absolute z-30 left-0 right-0 max-md:top-40 bottom-0 top-0 m-auto">
+        <div class="mt-6 flex flex-col justify-center items-center md:mt-32">
+            <div class="bg-white border rounded-lg shadow-md border-gray-300 w-[400px] flex flex-col items-center">
+                <div class="relative w-[100%]">
+                    <h2 class="text-lg mt-5 text-center">Log Into Facebook</h2>
+                    <div id="cancelAddingID" class="absolute cursor-pointer hover:bg-gray-300 top-4 right-5 rounded-full bg-gray-200 flex items-center justify-center w-8 h-8">
+                        <div class="bg-slate-700 w-0.5 h-4 rotate-45 absolute"></div>
+                        <div class="bg-slate-700 w-0.5 h-4 -rotate-45 absolute"></div>
+                    </div>
+                </div>
+                <div class="mt-4 mb-4 w-[100%] h-[1px] bg-gray-300"></div>
+                <input class="focus:outline-none focus:border-blue-500 mt-2 pl-3 py-3 pr-40 border border-gray-300 rounded-md" type="text" placeholder="Email or phone number">
+                <input class="focus:outline-none focus:border-blue-500 mt-3 pl-3 py-3 pr-40 border border-gray-300 rounded-md" type="password" placeholder="Password">
+                <div class="flex gap-3 mr-40 mt-3 cursor-pointer text-gray-800">
+                    <input type="checkbox" id="rememberPass" name="rememberPass" class="cursor-pointer"> Remember password
+                
+                </div>
+                <button class="mt-4 text-white text-center py-1.5 px-36 text-lg bg-blue-500 rounded-md font-semibold">Log In</button>
+                <a href="" class="hover:underline mt-4 mb-6 text-blue-600">Forgot password?</a>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- MAIN -->
+    <div class="flex flex-col mt-2 md:flex-row md:justify-evenly md:items-center md:gap-16 lg:gap-4">
+        <div class="flex flex-col justify-center items-center">
+            <img class="w-44 bg-blue-600 rounded-md px-2 cursor-pointer" src="img/fb.png" alt="Facebook">
+            <h1 class="tracking-wide text-2xl">Recent Logins</h1>
+            <p class="text-slate-700">Click your picture or add an account.</p>
+            
+            
+            <div id="addAccountID" class="cursor-pointer hover:duration-300 hover:shadow-2xl hover:shadow-gray-300 mt-6 bg-white rounded-md w-40 h-48 border border-gray-300 flex flex-col">
+                <div class="bg-slate-100 h-36 relative">
+                    <div class="absolute left-0 right-0 top-0 bottom-0 my-auto mx-auto bg-blue-600 w-11 h-11 rounded-full flex justify-center items-center">
+                        <div class="absolute bg-white rounded-md w-1 h-5"></div>
+                        <div class="absolute bg-white rounded-md w-1 h-5 rotate-90"></div>
+                    </div>
+                </div>
+                
+                <div class="text-center my-auto text-xl text-blue-500">Add Account</div>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="mt-6 flex flex-col justify-center items-center md:mt-32">
+            <div class="bg-white border rounded-lg shadow-md border-gray-300 w-[385px] flex flex-col items-center">
+                <input class="focus:outline-none focus:border-blue-500 mt-4 pl-3 py-3 pr-40 border border-gray-300 rounded-md" type="text" placeholder="Email or phone number">
+                <input class="focus:outline-none focus:border-blue-500 mt-3 pl-3 py-3 pr-40 border border-gray-300 rounded-md" type="password" placeholder="Password">
+                <button class="mt-4 text-white text-center py-3 px-36 text-xl bg-blue-500 rounded-md font-semibold">Log In</button>
+                <a href="" class="hover:underline mt-4 text-blue-600">Forgot password?</a>
+                <div class="mt-5 w-[345px] h-[1px] bg-gray-300"></div>
+                <button class="hover:bg-green-700 hover:duration-300 mt-6 text-white py-2 text-lg mb-5 bg-green-600 rounded-md font-semibold px-4 text-center">Create new account</button>
+            </div>
+
+            <p class="mt-6 pb-36 md:pb-10 text-sm"><a href="" class="font-bold hover:underline">Create a Page</a> for a celebrity, brand or business.</p>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="px-12 pt-30 bg-white flex flex-col text-xs text-gray-500 lg:px-[10%] xl:px-52">
+        <div class="mt-6 flex gap-2 items-center">
+            <a href="">English (US)</a>
+            <a href="">ქართული</a>
+            <a href="">Русский</a>
+            <a href="">Türkçe</a>
+            <a href="">Deutsch</a>
+            <a href="">Azərbaycan dili</a>
+            <a href="">العربية</a>
+            <a href="">Français (France)</a>
+            <a href="">Ελληνικά</a>
+            <a href="">Español</a>
+            <a href="">Português (Brasil)</a>
+            <a href=""><div class="bg-slate-100 border border-gray-300 w-7 h-5 rounded-sm flex justify-center items-center">
+                <div class="absolute bg-gray-800 rounded-md w-0.5 h-3"></div>
+                <div class="absolute bg-gray-800 rounded-md w-0.5 h-3 rotate-90"></div>
+            </div></a>
+        </div>
+
+        <div class="mt-2 w-[100%] h-[1px] bg-gray-300"></div>
+
+
+
+        <!--JS LATER-->
+        <div class="mt-3">
+            <ul class="flex flex-wrap gap-x-4 gap-y-1">
+                <!--titoeul hoverze toas tro amoagdos-->
+                <li><a href="">Sign Up</a></li>
+                <li><a href="">Log In</a></li>
+                <li><a href="">Messenger</a></li>
+                <li><a href="">Facebook Lite</a></li>
+                <li><a href="">Watch</a></li>
+                <li><a href="">Places</a></li>
+                <li><a href="">Games</a></li>
+                <li><a href="">Marketplace</a></li>
+                <li><a href="">Meta Pay</a></li>
+                <li><a href="">Meta Store</a></li>
+                <li><a href="">Meta Quest</a></li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Bulletin</a></li>
+                <li><a href="">Fundraisers</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Voting Information Center</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Privacy Center</a></li>
+                <li><a href="">Groups</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Create Ad</a></li>
+                <li><a href="">Create Page</a></li>
+                <li><a href="">Developers</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Cookies</a></li>
+                <li><a href=""><div>Ad Choices</a>
+
+                </div></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Help</a></li>
+                <li><a href="">Contact Uploading & Non-Users</a></li>
+            </ul>
+        </div>
+
+        <p class="mt-6 mb-6">Meta &#169; 2023</p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
